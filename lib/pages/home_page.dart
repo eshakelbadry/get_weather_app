@@ -55,14 +55,14 @@ class _HomePageState extends State<HomePage> {
                     children: [
                       Container(
                         height: 80,
-                        width: 250,
+                        width: 285,
                         decoration: BoxDecoration(
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(25),
                         ),
                         child: const Center(
                           child: Text(
-                            'Weather Status',
+                            'Getting Weather Status',
                             style: TextStyle(
                                 fontSize: 20,
                                 color: Colors.black,
